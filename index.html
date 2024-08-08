@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/input.css">
+    <script src="contador.js" defer></script>
+</head>
+<body>
+    <h1>Abertura em ...</h1>
+
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="text" id="days">0</p>    
+            <span>DAYS</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="text" id="hours">0</p>    
+            <span>HOURS</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="text" id="mins">0</p>    
+            <span>MINUTES</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="text" id="seconds">0</p>    
+            <span>SECONDS</span>
+        </div>
+    </div>
+
+    <input type="number" id="daysInput" placeholder="Digite os dias">
+    <button id="addDays">Adicionar Dias</button>
+    <button id="subtractDays">Diminuir Dias</button>
+</body>
+</html>
